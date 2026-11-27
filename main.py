@@ -1,13 +1,14 @@
 """One-Liner Laughs entry.
 
 Writes a single original funny line to /output/entry.txt.
-Draft version.
+Revised version: a bank's fraud alert becomes the setup, and the
+payoff is that the suspicious activity was finally saving money.
 """
 
 import os
 from pathlib import Path
 
-LINE = "My therapist said to embrace my mistakes, so I hugged my student loan statement and it charged me interest for the contact."
+LINE = "My bank called about suspicious activity on my account: someone (me) had finally tried to save money."
 
 
 def main() -> None:
